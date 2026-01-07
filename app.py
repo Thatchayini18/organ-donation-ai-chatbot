@@ -37,4 +37,5 @@ if user_input:
 if st.button("🔄 Reset Chat"):
     st.session_state.messages = []
     st.session_state.state = {}
-    st.experimental_rerun()
+    st.rerun()
+
